@@ -1,0 +1,30 @@
+h1, span{
+  color: darkblue;
+}
+
+p, #in_section{
+  color: purple;
+}
+
+div{
+  color: green;
+}
+
+ul, ol{
+  color: red;
+}
+
+/**any ol element which is a direct child of a div element**/
+div > ol, .selected{
+  color: darkred;
+}
+
+/**all p elements that are inside a section element.**/
+section p{
+  color: pink;
+}
+/**all article element with "class= selected"**/
+article.selected {
+  color: blue;
+}
+
