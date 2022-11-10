@@ -1,3 +1,7 @@
+body{
+
+}
+
 h1, span{
   color: darkblue;
 }
@@ -26,5 +30,11 @@ section p{
 /**all article element with "class= selected"**/
 article.selected {
   color: blue;
+}
+
+img{
+  display: block;
+  width: 300px;
+  height: 235xp;
 }
 
