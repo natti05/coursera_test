@@ -3,16 +3,132 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Hello coursera</title>
+  <title>Hello Coursera</title>
 </head>
 <body>
 <h1>It is bananas</h1>
+<hr>
+<p>div and span elements</p>
+<div>DIV line1: Some content here</div>
+<div>DIV line2</div>
+<span>SPAN line3</span>
+<div>
+  DIV line4
+  <span> ***SPAN INSIDE DIVE line4 ***</span>
+  Continue content of DIV line4
+</div>
+<hr>
+<p>Heading Elements</p>
+<h1>This is the Main Heading</h1>
+<h2>Subheading 2</h2>
+<h3>Subheading 3</h3>
+<h4>Subheading 4</h4>
+<h5>Subheading 5</h5>
+<h6>Subheading 6</h6>
+<hr>
+<header>
+  header element - Some header information goes here.
+  Usually consists of company logo, some tag line, etc.
+  Sometimes, navigation is contained in the header as well.
+<nav>nav (short for navigation) element - Usually contains
+  links to different parts of the web site.</nav>
+</header>
+<hr>
+<section>
+  Section 2
+  <article>Article 4</article>
+  <article>Article 5</article>
+  <article>Article 6</article>
+  <div>Regular DIV element</div>
+</section>
+<aside>
+  ASIDE - Some information that relates to the main topic,
+  i.e., related posts.
+</aside>
+<hr>
+<h1>Ordered list</h1>
+<div>
+  Oreo cookie eating procedure:
+  <ol>
+    <li>Open box</li>
+    <li>Take out cookie</li>
+    <li>Make a Double Oreo
+      <ol>
+        <li>Peel off the top part</li>
+        <li>Place another cookie in the middle</li>
+        <li>Put back the top part</li>
+      </ol>
+    </li>
+    <li>Enjoy!</li>
+  </ol>
+</div>
+<ul>
+  <li>Milk</li>
+  <li>Donuts</li>
+  <li>Cookies
+    <ul>
+      <li>Chocolate</li>
+      <li>Sugar</li>
+      <li>Peanut Butter</li>
+    </ul>
+  </li>
+  <li>Pepto Bismol</li>
+</ul>
 <br> <!-- break -->
 <hr><!-- horizontal rule -->
-
+<p>
+  One purpose of HTML Character Entity References is
+  To allow the browser to display certain characters it would
+  otherwise interpret as part of HTML code and not something to
+  display to the user
+</p>
 <h1>Don't be afraid to be &lt;then a 100% success &amp; &gt;more:</h1>
 <h1>Don't be afraid to be <then a 100% success & >more:</h1>
+<hr>
+<p>
+  &quot;Using only HTML, how would you make sure that 3 words
+  in an HTML document ALWAYS appear together on 1 line,
+  even if the text word-wraps because the browser
+  window is too narrow for that text line?
+
+  victory&nbsp;nor&nbsp;defeat.&quot;
+
+  <p>
+    Place &nbsp; entity reference after the
+    1st word and after the 2nd word
+    (with no spaces in between words and entity references)-->
+  </p>
+</p>
 
 <p onclick="alert('Hi')">Click</p>
+
+<hr>
+<p>LInks</p>
+<h1 id="top">External Links</h1>
+  <section>
+    <p>
+      Let's link to a Facebook Fan page I created for this course!
+      <!-- link to Facebook page WITH TARGET-->
+      <a href="http://www.facebook.com/CourseraWebDev"
+      target="_blank" title="Like Our Page!">Course Facebook Page</a>
+    </p>
+  </section>
+  <p>Internal Links</p>
+  <section>
+    We can link to a file in the same directory as this HTML file like this:
+    <a href="same_directory.html" title="same dir link">Linking to a file
+    in the same directory</a>
+
+    <a href="same_directory.html" title="same dir link">
+      <div> DIV Linking to a file in the same directory</div>
+    </a>
+  </section>
+
+<footer>
+ <p>Tech Support: yeah.right@server-is-down.com</p>
+ <p>Theodor Roosevelt 1910 &copy; Copyright</p>
+</footer>
+
 </body>
 </html>
+
