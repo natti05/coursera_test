@@ -7,9 +7,18 @@
   <title>Hello World</title>
 </head>
 <body>
+  <header>
+    <div>
+      <h1 class="not_align">my web test</h1>
+      <nav style= "text-align: right">
+        <a href="same_directory.html" title="same dir link">
+          <span> about</span>
+        </a>
+      </nav>
+    </div>
+</header>
 <h1>It is bananas</h1>
 <p onclick="alert('Hi')">Click</p>
-<hr>
 <h3>Div and span elements</h3>
 <div>DIV line1: Some content here</div>
 <div>DIV line2</div>
@@ -19,22 +28,14 @@
   <span> ***SPAN INSIDE DIVE line4 ***</span>
   Continue content of DIV line4
 </div>
-<hr>
-<h1>Heading Elements H1</h1>
+<div>
+  <h1>Heading Elements H1</h1>
+</div>
 <h2>Subheading H2</h2>
 <h3>Subheading H3</h3>
 <h4>Subheading H4</h4>
 <h5>Subheading H5</h5>
 <h6>Subheading H6</h6>
-<hr>
-<header>
-  header element - Some header information goes here.
-  Usually consists of company logo, some tag line, etc.
-  Sometimes, navigation is contained in the header as well.
-<nav>nav (short for navigation) element - Usually contains
-  links to different parts of the web site.</nav>
-</header>
-<hr>
 <h3>How to organize better using diferents types of tags</h3>
 <section>
   Section 2
@@ -47,7 +48,6 @@
   ASIDE - Some information that relates to the main topic,
   i.e., related posts.
 </aside>
-<hr>
 <h3>Ordered list</h3>
 <div>
   Oreo cookie eating procedure:
@@ -77,8 +77,6 @@
   </li>
   <li>Pepto Bismol</li>
 </ul>
-<br> <!-- break -->
-<hr><!-- horizontal rule -->
 <h3>HTML Entities</h3>
 <p>
   One purpose of HTML Character Entity References is
@@ -86,7 +84,7 @@
   otherwise interpret as part of HTML code and not something to
   display to the user
 </p>
-<img src="useful_entities.png" width="300" height="235" alt="entities" >
+<img src="useful_entities.png" alt="entities" >
 <h4>Non-breaking Space</h4>
 <p>
   Using this make sure that 3 words
@@ -97,7 +95,6 @@
   <br>
   victory&nbsp;nor&nbsp;defeat.
 </p>
-<hr>
 <h3>Links</h3>
 <h4 id="top">External Links</h4>
   <section>
@@ -113,12 +110,8 @@
     We can link to a file in the same directory as this HTML file like this:
     <a href="same_directory.html" title="same dir link">Linking to a file
     in the same directory</a>
-
-    <a href="same_directory.html" title="same dir link">
-      <div> DIV Linking to a file in the same directory</div>
-    </a>
   </section>
-
+<hr>
 <footer>
  <p>by me &copy; Copyright</p>
 </footer>
