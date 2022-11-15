@@ -1,3 +1,12 @@
+/** Conflict resolution.
+ *
+ * The last declaration wins.
+ * HTML is processed sequentially.top to bottom.
+ * External css page first,
+ * Css style in the head secound and,
+ * declared attribute style in the tag third.
+ *
+ * **/
 section ul{
   list-style: none;
   width: 300px;
@@ -24,4 +33,5 @@ section li:nth-child(3) {
 
 section li:nth-child(4):hover {
  cursor: progress;
+ font-size: 20px;
 }
