@@ -1,0 +1,27 @@
+section ul{
+  list-style: none;
+  width: 300px;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover, a:active {
+  color: green;
+  text-transform: uppercase;
+}
+
+section li:nth-child(odd) {
+  background: gray;
+}
+
+section li:nth-child(3) {
+  background: pink;
+
+}
+
+section li:nth-child(4):hover {
+ cursor: progress;
+}
