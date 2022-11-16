@@ -1,26 +1,39 @@
-body{
+/* Asterisk symbol, when used after a class name, or any other identifier, will select all descendants/children inside that element. */
+/* box-sizing property allows us to include the padding and border in an element's total width and height.  */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
+body{
+  font-family: sans-serif;
 }
 
 h1, span{
-  color: darkblue;
+  color: #6495ed;
+  font-weight: bold;
 }
 
 p, #in_section{
-  color: purple;
+  color: #008b8b;
 }
 
 div{
-  color: green;
+  color: #7fffd4;
 }
 
 ul, ol{
   color: red;
 }
 
+section > article {
+font-size: 120%;
+}
+
 /**any ol element which is a direct child of a div element**/
 div > ol, .selected{
-  color: darkred;
+  color: #00008b;
 }
 
 /**all p elements that are inside a section element.**/
@@ -37,4 +50,5 @@ img{
   width: 300px;
   height: 235xp;
 }
+
 

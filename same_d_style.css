@@ -7,7 +7,7 @@
  * declared attribute style in the tag third.
  *
  * **/
-section ul{
+div ul{
   list-style: none;
   width: 300px;
 }
@@ -22,16 +22,52 @@ a:hover, a:active {
   text-transform: uppercase;
 }
 
-section li:nth-child(odd) {
+div li:nth-child(odd) {
   background: gray;
 }
 
-section li:nth-child(3) {
+div li:nth-child(3) {
   background: pink;
 
 }
 
-section li:nth-child(4):hover {
+div li:nth-child(4):hover {
  cursor: progress;
  font-size: 20px;
 }
+
+#p1{
+  width: 45%;
+  float: left;
+}
+#p2 {
+  width: 45%;
+  float: right;
+  border: 1px solid black;
+  padding: 5px;
+}
+section {
+  border: 1px solid pink;
+  margin:10px 10px 10px 10px;
+  /*top right bottom left*/
+  padding: 10px;
+  height: 350px;
+  overflow: auto;
+}
+
+#section3 {
+  background: url(https://www.fillmurray.com/440/260) no-repeat center ;
+  background-color: #fff8dc;
+}
+
+div > img {
+  float: left;
+  clear: left;
+  padding: 0px 10px 20px 10px;
+}
+
+footer {
+  padding-top: 20px;
+  clear: left;
+}
+
