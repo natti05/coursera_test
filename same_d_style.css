@@ -81,6 +81,10 @@ section {
   left: 40px;
 }
 
+#container p {
+padding: 15px 5px 5px 5px;
+}
+
 #box1 {
   text-align: center;
   width:50px;
