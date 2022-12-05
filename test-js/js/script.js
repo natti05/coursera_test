@@ -53,7 +53,7 @@ if (x === y) {
 else {
 	console.log ("they are different");
 
-// ***** If statement (all false)
+// ***** If statement (all false) "|| or"
 if ( false || null || 
      undefined || "" || 0 || NaN) {
   console.log("This line won't ever execute");
@@ -62,7 +62,7 @@ else {
   console.log ("All false");
 }
 
-// ***** If statement (all true)
+// ***** If statement (all true) "&& and"
 if (true && "hello" && 1 && -1 && "false") {
   console.log("All true");
 }
